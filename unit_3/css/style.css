@@ -1,0 +1,114 @@
+#main-container {
+     width: 1224px;
+     margin: 0 auto;
+     position: relative;
+}
+
+#carousel {
+	z-index: 0;
+	padding-top: 100px;	
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  z-index: 9999;
+  height: 100px;
+}
+
+#top_button {
+	z-index: 1;
+	float: right;
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	text-align: right;
+}
+
+#top_button img	{
+		padding-right: 20px;
+		display: inline;
+}
+
+#hero_button {
+	z-index: 1;
+	float: center;
+	position: absolute;
+	top: 500px;
+	left: 460px;
+	align: center;
+}
+
+#mobile-top {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 55px;
+	right: -27px;
+	z-index: 5;
+}
+
+#mobile-number	{
+	color: #fff;
+	padding-right: 50px;
+}
+
+body {
+	color: #000;
+	text-align: center;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+h2.extrabold {
+	font-weight: 900;
+	text-align: center;
+}
+
+img {
+    padding: 0px;
+    display: block;
+}
+
+#hero {
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 48px;
+ 	color: #fff;
+}
+
+#hero-p {
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 24px;
+	color: #fff;
+	}
+#hero-text {
+	z-index: 1;
+	position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.container-3col {
+	 width: 1224px;
+     margin: 0 auto;
+     position: relative;
+}
+
+.left-column {
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+
+.right-column {
+	float: right;
+	width: 30%;
+}
+
+.center-column {
+	margin: auto;
+	width: 30%;	
+	padding-top: 1px;
+}
