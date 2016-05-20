@@ -4,6 +4,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
   	width: 1224px;
   	height: 100px;
   	background: url(../images/top_bar2.jpg);
-
 }
 
 nav	{
@@ -66,6 +66,7 @@ footer {
 	background-color: #af7e6c;
 	margin-top: 50px;
 	padding: 10px;
+	/* clear: both; */
 }
 
 #main-container {
@@ -160,14 +161,13 @@ footer {
 	}
 
 #hero-text {
-	z-index: 1;
-	position: absolute;
-    left: 0;
-    top: 300px;
-    width: 100%;
-    margin: auto;
+	background: url(../images/matty-z-hero-2.jpg) no-repeat;
+	background-size:cover;
+	height: 75vh;
 }
-
+#hero-text div {
+	padding-top:20em;
+}
 .gallery-thumbnail {
 	width: 350px;
 }
@@ -187,15 +187,16 @@ ul {
 
 .container-3col {
 	width: 1224px;
-    margin: 10px auto;
-    margin-bottom: 40px;
-    position: relative;
+	margin: 10px auto;
+	margin-bottom: 40px;
+	position: relative;
 }
 
-.left-column {
+.container-3col section {
 	float: left;
-	width: 30%;
+	width: 33.33%;
 	text-align: left;
+	padding: 2em;
 }
 
 .left-column2 {
@@ -206,16 +207,23 @@ ul {
 }
 
 .right-column {
-	float: right;
-	width: 30%;
+	/* float: right; */
+	/* width: 30%; */
 }
 
 .center-column {
-	margin: auto;
-	width: 30%;	
+	/* margin: auto; */
+	/* width: 30%; */
 }
 
 .full-width {
 	background-color: #888;
 	padding: 10px;
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
