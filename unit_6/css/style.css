@@ -1,0 +1,265 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+  	position: fixed;
+  	z-index: 9999;
+  	width: 1224px;
+  	height: 100px;
+  	background: url(../images/top_bar2.jpg);
+}
+
+nav	{
+	display: inline;
+	position: absolute;
+	z-index: 3;
+	padding-top: 65px;
+	right: 240px;
+}
+
+nav a {
+	font-family: 'Righteous', 'Arial', sans-serif;
+	letter-spacing: .03em;
+	color: #444;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+/* visited link */
+nav a:visited {
+	text-decoration: none;
+    color: #444;
+}
+
+nav a:hover {
+	text-decoration: underline;
+    color: #555;
+}
+
+body {
+	font-family: 'Quattrocento', serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+h2.extrabold {
+	font-family: 'Righteous', 'Arial', sans-serif;
+	color: #af7e6c;
+/*	font-weight: 900;
+*/	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+h2 a.extrabold2 {
+	font-family: 'Righteous', 'Arial', sans-serif;
+	color: #af7e6c;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul {
+	padding-left: 40px;
+}
+
+section {
+	margin: auto;
+}
+
+footer {
+	position: static;
+	width: 1224px;
+	bottom: 0px;
+	background-color: #af7e6c;
+	margin-top: 50px;
+	padding: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.gallery-thumbnail {
+	width: 350px;
+}
+
+.container-3col {
+	width: 1224px;
+    margin: 10px auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.left-column {
+	float: left;
+	width: 30%;
+	text-align: left;
+}
+
+.left-column2 {
+	float: left;
+	padding-left: 20px;
+	width: 30%;
+	text-align: left;
+}
+
+.right-column {
+	float: right;
+	width: 30%;
+}
+
+.center-column {
+	margin: auto;
+	width: 30%;	
+}
+
+.full-width {
+	background-color: #888;
+	padding: 10px;
+}
+
+#wrapper {
+    width: 1224px;
+    margin: 0 auto;
+    position: relative;
+ /*   background-color: #333;*/
+}
+
+#top_bar {
+	z-index: 0;
+	width: 100%;
+}
+
+#logo {
+	position: absolute;
+	left: 10px;
+	top: 35px;
+	display: inline;
+	float: left;
+	width: 451px;
+}
+
+#contact-top {
+	float: right;
+	right: 100px;
+	width: 180px;
+	padding-top: 25px;
+	padding-right: 25px;
+}
+
+#top_button {
+	display: block;
+	width: 150px;
+	margin: 0 auto;
+	padding: 0 20 0 0;
+	height: 40px;
+}
+
+#mobile-number	{
+	font-family: 'Righteous', 'Arial', sans-serif;
+	font-size: 1em;
+	color: #444;
+	padding-right: 0px;
+}
+
+#carousel {
+	z-index: 0;
+	padding-top: 100px;	
+}
+
+#hero_button {
+	z-index: 1;
+	float: center;
+	position: absolute;
+	top: 400px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	height: 80px;
+}
+
+#hero-heading {
+	font-family: 'Righteous', 'Arial', sans-serif;
+	letter-spacing: .05em;
+    text-shadow: 2px 2px 8px #000000;
+    font-size: 3em;
+ 	color: #fff;
+ 	opacity: 0.9;
+}
+
+#hero-p {
+	font-family: 'Righteous', 'Arial', sans-serif;
+	letter-spacing: .1em;
+	line-height: 3em;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 24px;
+	color: #fff;
+	opacity: 0.9;
+	}
+
+#hero-text {
+	background: url(../images/matty-z-hero-2.jpg) no-repeat;
+	background-size:cover;
+	height: 75vh;
+}
+
+#hero-text div {
+	padding-top:20em;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 32%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 68%;
+}
+
+#two_col_left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	float: left;
+	width: 48%;
+	padding-right: 0px;
+	display: inline;
+}
+
+#two_col_right {
+	background-color: #E582A2;
+	border: 1px black solid;
+	float: right;
+	width: 48%;
+	padding-left: 0px;
+	display: inline;
+}
+
