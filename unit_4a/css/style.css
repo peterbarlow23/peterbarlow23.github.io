@@ -11,6 +11,7 @@ header {
   	position: fixed;
   	z-index: 9999;
   	width: 90%;
+  	max-width: 1224px;
   	height: 100px;
   	background: url(../images/top_bar2.jpg);
 }
@@ -117,8 +118,8 @@ footer {
 
 #wrapper {
     width: 90%;
+    max-width: 1224px;
     margin: 0 auto;
-/*    position: relative;*/
 }
 
 #top_bar {
