@@ -418,7 +418,7 @@ footer {
 
 
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 660px) {
 	
 	header {
   		position: fixed;
@@ -479,10 +479,11 @@ footer {
 	}
 
 	#logo {
+		float: left;
 		padding-top: .5em;
-		display: inline;
-		float: center;
-		width: 389px;
+		display: block;
+		margin: 0 auto;
+		width: 320px;
 	}
 
 	#mobile {
@@ -490,10 +491,12 @@ footer {
 	}
 
 	#contact-top {
+		float: left;
 		display: block;
 		margin: 0 auto;
 		width: 200px;
 		padding-top: 4em;
+		padding-left: .5em;
 	}
 
 }
