@@ -213,7 +213,7 @@ footer {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1224px) {
 
 	nav	{
 		float: right;
@@ -229,6 +229,19 @@ footer {
 		padding: .5em 1.5em;
 		background-color: #af7e6c;
 		display: none;
+	}
+
+	header {
+  		position: fixed;
+  		z-index: 9999;
+  		width: 100%;
+  		height: 100px;
+  		background: url(../images/top_bar2.jpg);
+	}
+
+	#wrapper {
+    	width: 100%;
+    	margin: 0 auto;
 	}
 
 	#logo {
@@ -249,6 +262,10 @@ footer {
 	nav:hover a {
 		display: block;
 		background-color:#cf9b7f;
+	}
+
+	nav a:hover{
+		background-color: #edb292;
 	}
 
 	nav:visited a {
@@ -290,35 +307,79 @@ footer {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-	nav	{
-		float: right;
-		padding-top: 2.5em;
-	}
 
-	nav a {
-		font-family: 'Righteous', 'Arial', sans-serif;
-		font-size: 1em;
-		letter-spacing: .03em;
-		color: #6d4f40;
-		text-decoration: none;
-		padding: .5em 1.5em;
-		background-color: #af7e6c;
-		display: none;
-	}
+@media screen and (max-width: 768px) {
 
 	header {
   		position: fixed;
   		z-index: 9999;
   		width: 100%;
-  		height: 100px;
+  		height: 130px;
   		background: url(../images/top_bar2.jpg);
+	}
+
+	nav	{
+		padding-top: 4.75em;
+	}
+
+	nav:hover a {
+		display: block;
+		background-color:#cf9b7f;
+	}
+
+	nav a:hover{
+		background-color: #edb292;
+	}
+
+	nav:visited a {
+		text-decoration: none;
+    	color: #6d4f40;
+	}
+
+
+	.column {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 1.5em;
+	}
+
+	ul  {
+ 		padding-left:0;   
+	}
+	ul li  {
+		list-style-position:inside
 	}
 
 	#wrapper {
     	width: 100%;
     	margin: 0 auto;
+	}
+
+	#contact-top {
+		display: inline-block;
+		float: right;
+		width: 270px;
+		position: absolute;
+		padding-top: 1em;
+		padding-right: 1.5em;
+	}
+
+	#top_button {
+		display: block;
+		margin: 0 auto;
+		width: 150px;
+	}
+
+	#mobile-number	{
+		font-family: 'Righteous', 'Arial', sans-serif;
+		font-size: 1em;
+		color: #5e3c2d;
+	}
+
+	#mobile {
+		padding: .45em 2em;
 	}
 
 	#logo {
@@ -328,119 +389,70 @@ footer {
 		width: 400px;
 	}
 
-	#mobile {
-		color: #6d4f40;
-		font-size: 2em;
-		padding: .55em 2em;
-		display: block;
-		background-color:transparent;
+	#hero-text {
+		background: url(../images/matty-z-hero-2.jpg) no-repeat;
+		background-size:cover;
+		height: 75vh;
+		width: 100%
 	}
 
-	nav:hover a {
-		display: block;
-		background-color: #cf9b7f;
+	#hero-heading {
+		line-height: 1em;
 	}
 
-	nav:visited a {
-		text-decoration: none;
-    	color: #6d4f40;
-
-	}
-
-	#contact-top {
-		float: right;
-	}
 
 	#hero-p {
 		font-family: 'Righteous', 'Arial', sans-serif;
 		letter-spacing: .1em;
-		line-height: 3em;
+		line-height: 1.5em;
 		text-shadow: .08em .08em .16em #000000;
 		font-size: 1em;
 		color: #fff;
 		opacity: 0.9;
-		}
-}
-
-
-
-@media screen and (min-width: 482px) and (max-width: 722px;) {
-
-	.column {
-		display: block;
-		float: left;
-		width: 90%;
-		text-align: left;
-		padding: 1.5em;
-	}
-
-	#top_button {
-		display: block;
-		margin: 0 auto;
-		width: 50px;
-	}
-
-	#mobile-number	{
-		font-family: 'Righteous', 'Arial', sans-serif;
-		font-size: .75em;
-		color: #5e3c2d;
-	}
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 822px) {
-	header {
-  		position: fixed;
-  		z-index: 9999;
-  		width: 100%;
-  		height: 100px;
-  		background: url(../images/top_bar2.jpg);
-	}
-
-	.column {
-		display: block;
-		float: left;
-		width: 90%;
-		text-align: left;
-		padding: 1.5em;
-	}
-
-	#wrapper {
-    	width: 100%;
-    	margin: 0 auto;
-	}
-
-	#contact-top {
-		float: right;
-	}
-
-	#logo {
-		padding-top: 2.5em;
-		display: inline;
-		float: left;
-		width: 350px;
+		padding: 2em 1em;
 	}
 
 }
 
 
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+@media screen and (max-width: 414px) {
 	
 	header {
   		position: fixed;
   		z-index: 9999;
-  		width: 100%
+  		width: 100%;
   		height: 130px;
   		background: url(../images/top_bar2.jpg);
 	}
 
+	nav	{
+		padding-top: 1em;
+		width: 100%;
+	}
+
 	.column {
 		display: block;
-		float: left;
-		width: 90%;
-		text-align: left;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
 		padding: 1.5em;
+	}
+
+	.column_centered {
+		float: left;
+		width: 100%;
+		margin: 0 auto;
+		padding: 2em 2em;
+	}
+
+	ul  {
+ 		padding-left:0;   
+	}
+	ul li  {
+		list-style-position:inside
 	}
 
 	#wrapper {
@@ -451,18 +463,37 @@ footer {
 	#hero-p {
 		font-family: 'Righteous', 'Arial', sans-serif;
 		letter-spacing: .1em;
-		line-height: 3em;
+		line-height: 2em;
 		text-shadow: .08em .08em .16em #000000;
-		font-size: 1em;
+		font-size: .8em;
 		color: #fff;
 		opacity: 0.9;
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+
+	#hero-text div {
+		padding-top: 10em;
+
 	}
 
 	#logo {
-		padding-top: 1.5em;
+		padding-top: .5em;
 		display: inline;
-		float: left;
-		width: 300px;
+		float: center;
+		width: 389px;
+	}
+
+	#mobile {
+		padding: .45em 0em .8em 9em;
+	}
+
+	#contact-top {
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+		padding-top: 4em;
 	}
 
 }
