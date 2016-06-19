@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>	
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<title>Matty_Z Carpentry - No job too small.</title>
+	<!-- Optionally add helpers - button, thumbnail and/or media -->
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+	<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<a href="index.html"><img class="clearfix" id="logo" src="images/matty_z_web_logo.png" alt="Matty_Z Carpentry" title="Matty_Z Carpentry"></a>
+  			<button class="cross">&#735;</button>
+			<nav class="clearfix">
+				<a href="#" id="mobile" alt="menu" title="menu">&#9776;</a>
+				<a href="#">services</a>
+				<a href="#">gallery</a>
+				<a href="#">testimonials</a>
+				<a href="#">contact</a>
+			</nav>
+			<div id="contact-top">
+				<a href="mailto:peterbarlow23@gmail.com"><img id="top_button" src="images/get-your-free-quote.png" alt="Get your free quote" title="Get your free quote button"></a>
+				<p id="mobile-number">or call 0439 644 981</p>
+			</div>
+		</header>
+		<main>
+			<section id="hero-text">
+				<div>
+					<p id="hero-heading">No job too small.</p>
+					<p id="hero-p"> Quality Carpentry, with great personal service at an affordable price.</p>
+					<a href="mailto:peterbarlow23@gmail.com"><img id="hero_button" src="images/get-your-free-quote.png" alt="Get your free quote" title="Get your free quote button"></a>
+				</div>
+			</section>
+			<section class="three_column clearfix">
+				<div class="column">
+					<h2 class="extrabold">SERVICES</h2>
+				 	<ul>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				  		<li>Lorem ipsum dolor sit amet consectetur.</li>
+				 	</ul>
+				</div>
+				<div class="column">
+					<h2 class="extrabold">TESTIMONIALS</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta facilisis dolor, quis cursus risus interdum  eget. Morbi nec sagittis erat. Suspendisse nisl tortor, sollicitudin a blandit vel, faucibus eu nibh. Quisque egestas urna ac augue dictum scelerisque. Quisque vel dolor nec arcu cursus.</p>
+				</div>
+				<div class="column">
+					<h2 class="extrabold">QUALITY & SERVICE</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta facilisis dolor, quis cursus risus interdum eget. Morbi nec sagittis erat. Suspendisse nisl tortor, sollicitudin a blandit vel, faucibus eu nibh. Quisque egestas urna ac augue dictum scelerisque. Quisque vel dolor nec arcu cursus.</p>
+				</div>
+			</section>
+			<section class="three_column bxslider clearfix">
+				<h2><a href="#" class="extrabold2">VIEW OUR GALLERY</a></h2>
+				<a class="fancybox" rel="group" href="images/deck.jpg"><img class="column_centered" src="images/deck.jpg" alt="deck" title="Deck" /></a>
+				<a class="fancybox" rel="group" href="images/pergola.jpg"><img class="column_centered" src="images/pergola.jpg" alt="pergola" title="Pergola" /></a>
+				<a class="fancybox" rel="group" href="images/spa.jpg"><img class="column_centered" src="images/gate.jpg" alt="gate" title="Gate" /></a>
+				<p> <a id="view-more" href="#">view more>> </a></p>
+			</section>
+		</main>
+		<footer class="clearfix">
+			<p id="footer-text">Matthew Zanella - Carpenter<br />
+			m: 0439 644 981<br />
+			&copy;2016 Matty_Z Carpentry</p>
+			<a href="#"><img id="facebook" src="images/facebook-logo.svg" alt="Like our Facebook Page" title="Like our Facebook Page"></a>
+		</footer>
+	</div>
+		<script>
+			$('.bxslider').bxSlider({
+  			adaptiveHeight: true,
+  			mode: 'fade'
+			});
+		</script>
+		
+		<script>
+			$(document).ready(function() {
+			$(".fancybox").fancybox();
+			});
+		</script>
+		
+		<script>
+			$( ".cross" ).hide();
+			$( ".nav" ).hide();
+			$( "#mobile" ).click(function() {
+			$( ".nav" ).slideToggle( "slow", function() {
+			$( "#mobile" ).hide();
+			$( ".cross" ).show();
+			});
+			});
+			
+			$( ".cross" ).click(function() {
+			$( ".nav" ).slideToggle( "slow", function() {
+			$( ".cross" ).hide();
+			$( "#mobile" ).show();
+			});
+			});
+			</script>
+	</body>
+</html>
