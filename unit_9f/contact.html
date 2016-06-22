@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Matty_Z Carpentry - No job too small.</title>
+</head>
+<body>
+	<div id="wrapper2">
+		<header>
+			<!-- <button class="cross">&#735;</button> -->	
+			<a href="index.html"><img class="clearfix" id="logo" src="images/matty_z_web_logo.png" alt="Matty_Z Carpentry" title="Matty_Z Carpentry"></a>
+			<nav class="clearfix">
+				<a href="#" id="mobile" alt="menu" title="menu">&#9776;</a>
+				<a href="#" class="cross" alt="menu" title="menu">&#735;</a>
+				<div class="nav-links">
+				<a href="index.html#services">services</a>
+				<a href="index.html#gallery">gallery</a>
+				<a href="index.html#testimonials">testimonials</a>
+				<a href="contact.html">contact</a>
+				</div>
+			</nav>
+			<div id="contact-top">
+				<a href="contact.html"><img id="top_button" src="images/get-your-free-quote.png" alt="Get your free quote" title="Get your free quote button"></a>
+				<p id="mobile-number">or call 0439 644 981</p>
+			</div>
+		</header>
+		<main>
+			<section id="hero-text2">
+				<div class="container">
+  					<form id="contact" action="" method="post">
+    					<h2 id="hero-heading-contact">Request a quotation</h3>
+    					<p id="hero-p2">Request a quote today, and get a reply with in 24 hours!</p>
+    					<fieldset>
+     					 <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    					</fieldset>
+    					<fieldset>
+      					<input placeholder="Your Email Address" type="email" tabindex="2" required>
+    					</fieldset>
+    					<fieldset>
+      					<input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    					</fieldset>
+    					<fieldset>
+      					<textarea placeholder="Brief description of work required." tabindex="5" required></textarea>
+    					</fieldset>
+    					<fieldset>
+      					<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    					</fieldset>
+  					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="clearfix">
+			<p id="footer-text">Matthew Zanella - Carpenter<br />
+			m: 0439 644 981<br />
+			&copy;2016 Matty_Z Carpentry</p>
+			<a href="#"><img id="facebook" src="images/facebook-logo.svg" alt="Like our Facebook Page" title="Like our Facebook Page"></a>
+		</footer>
+	</div>
+	<script type="text/javascript">
+
+			$( ".cross" ).hide();
+			$( "#mobile" ).click(function() {
+					$( "#mobile" ).hide();
+					$( ".cross" ).show();
+					$(".nav-links" ).show();
+				});
+
+			$( ".cross" ).click(function() {
+					$(".nav-links").hide();
+					$( ".cross" ).hide();
+					$( "#mobile" ).show();
+				});
+
+	</script>
+	</body>
+</html>
