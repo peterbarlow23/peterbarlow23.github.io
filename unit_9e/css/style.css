@@ -13,7 +13,7 @@ header {
   	width: 90%;
   	max-width: 1224px;
   	height: 100px;
-  	background: url(../images/top_bar2.jpg);
+  	background: url(../images/top_bar3.jpg);
 }
 
 nav	{
@@ -371,7 +371,7 @@ fieldset {
   		z-index: 3;
   		width: 100%;
   		height: 100px;
-  		background: url(../images/top_bar2.jpg);
+  		background: url(../images/top_bar3.jpg);
 	}
 
 	.nav-links {
@@ -462,7 +462,7 @@ fieldset {
   		z-index: 3;
   		width: 100%;
   		height: 130px;
-  		background: url(../images/top_bar2.jpg);
+  		background: url(../images/top_bar3.jpg);
 	}
 
 	nav	{
@@ -580,7 +580,7 @@ fieldset {
   		z-index: 3;
   		width: 100%;
   		height: 130px;
-  		background: url(../images/top_bar2.jpg);
+  		background: url(../images/top_bar3.jpg);
 	}
 
 	nav	{
